@@ -57,16 +57,16 @@ public class Principal {
 
 	private void cargar(Scanner sc) throws Exception {
 		System.out.println("seleccione:");
-		System.out.println("1. Cargar Cuenta");
-		System.out.println("2. Cargar Cliente");
+		System.out.println("1. Cargar Clientes");
+		System.out.println("2. Cargar Cuentas");
 		int op = sc.nextInt();
 		this.banco.cargar(op);
 	}
 
 	private void almacenar(Scanner sc) {
 		System.out.println("seleccione:");
-		System.out.println("1. Almecenar Cuenta");
-		System.out.println("2. Almecenar Cliente");
+		System.out.println("1. Cargar Clientes");
+		System.out.println("2. Cargar Cuentas");
 		int op = sc.nextInt();
 		this.banco.almacenar(op);		
 	}
